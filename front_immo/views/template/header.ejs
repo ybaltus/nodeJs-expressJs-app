@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Yannis Baltus</title>
+    <%- include('assets/css')%>
+    <%- include('assets/jscript')%>
+    <script src="../index.js" defer></script>
+</head>
+<body>
+<%- include('navbar')%>
+<main role="main">
+    <% if(carousel === true){ %>
+        <%- include('carousel')%>
+    <% }%>
+
+    <div class="container marketing">
+
